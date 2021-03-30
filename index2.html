@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Details and payment</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+  <div.class="wrapper">
+      <header>
+          <h1>Please enter your details.</h1>
+      </header>
+  </div.class>
+  <div class="card">
+    <div class="card-header">
+      <h2>Please provide your details below along with your payment option.</h2>
+    </div>
+    <form action="/action_page.php">
+        <fieldset>
+          <legend>Personalia:</legend>
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname"><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname"><br><br>
+          <label for="phone">Phone number:</label><br>
+          <input type="tel" id="phone" name="phone"
+                 pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                 required><br><br><br>
+                 <label for="email">E-mail Address</label><br>
+                 <input type="email" id="email"
+                        pattern=".+@globex.com" size="30" required><br><br><br><br>     
+          <input type="submit" value="Submit">
+        </fieldset>
+      </form>
+
+    </select>
+  </body>
+</html>

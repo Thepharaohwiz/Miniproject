@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dates and Tickets</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+  <div.class="wrapper">
+      <header>
+          <h1>Dates and Tickets</h1>
+      </header>
+  </div.class>
+  <div class="card">
+    <div class="card-header">
+      <h2>Please select which Date and Amount of tickets you would like to purchase to see X</h2>
+    </div>
+    <div class="card-body">
+    <label for="dates">Choose a Date:</label>
+
+    <select name="Date" id="dates">
+      <option value="12th">12th</option>
+      <option value="13th">13th</option>
+      <option value="14th">14th</option>
+      <option value="15th">15th</option>
+    </select>
+
+    <div class="container mt-4">
+        <div class="row">
+          <div class="col-6 row-heading">
+           Please select where you would like to be seated and how many tickets you would like to purchase.
+          </div>
+          <div class="col-3 row-heading">
+            Quantity
+          </div>
+          <div class="col-2 row-heading">
+            Price
+          </div>
+          
+        </div>
+        <div class="row">
+          <div class="col-6">
+            VIP Suite
+          </div>
+          <div class="col-3">
+            <input type="number" value="0" class="qty" id="qty_VIPSuite"/>
+          </div>
+          <div class="col-2">
+            <input type="number" readonly value="0" id="VIPSuite"/>
+          </div>
+        </div>
+        
+         <div class="row my-3">
+          <div class="col-6">
+            General Admission
+          </div>
+          <div class="col-3">
+            <input type="number" value="0" class="qty" id="qty_GeneralAdmission"/>
+          </div>
+          <div class="col-2">
+            <input type="number" readonly value="0" id="price_GeneralAdmission"/>
+          </div>
+        </div>
+        
+        <div class="row my-3">
+          <div class="col-6">
+            Front row seating
+          </div>
+          <div class="col-3">
+            <input type="number" class="qty" value="0" id="qty_Frontrowseating"/>
+          </div>
+          <div class="col-2">
+            <input type="number" readonly value="0" id="price_Frontrowseating"/>
+          </div>
+        </div>
+        
+        <div class="row my-3">
+          <div class="col-6">
+            Back row seating
+          </div>
+          <div class="col-3">
+            <input type="number" class="qty" value="0" id="qty_Backrowseating"/>
+          </div>
+          <div class="col-2">
+            <input type="number" readonly value="0" id="price_Backrowseating"/>
+          </div>
+        </div>
+        
+        <div class="row my-4">
+          <div class="col-9 text-right total">
+           Total
+          </div>
+          
+          <div class="col-2 total-val">
+            <span id="total_value">0</span
+
+      <form method="post" action="/page2">
+        <button type="submit">Continue</button>
+    </form>
+
+    </select>
+  </body>
+</html>
